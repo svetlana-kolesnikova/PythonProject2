@@ -21,9 +21,7 @@ print(same_num([1, 2, 3, 4], [3, 4, 5, 6]))
 students_data = {"Анна": 4.5, "Иван": 3.8, "Мария": 4.2, "Петр": 3.5}
 # Запросите пользователя ввести имя студента, которого нужно удалить. Удалите # # студента из словаря, и выведите обновленный словарь.
 
-delite_name = input()
+delite_name = input("Enter name: ")
+del students_data[delite_name]
 
-    if key == delite_name:
-        students_data.pop(key, 0)
-
-        print(students_data)
+print(students_data)
