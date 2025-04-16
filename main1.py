@@ -25,3 +25,4 @@ delite_name = input("Enter name: ")
 del students_data[delite_name]
 
 print(students_data)
+
